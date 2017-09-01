@@ -1,0 +1,239 @@
+/* =====================
+  setting
+===================== */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+
+/* =====================
+  title
+===================== */
+
+.soneyukiko{
+	background-color: #DCDCDC;
+}
+
+
+.titlename{
+	width: 400px;
+	height: 300px;
+	padding-top: 100px;
+	margin: 0 auto;
+
+}
+
+.name{
+	width: 400px;
+	height: 300px;
+	background-size: 100% 100%;
+	background-position: center;
+	background-image: url(../img/title.png);
+
+}
+
+
+/* =====================
+  カテゴリー部分
+===================== */
+
+
+.container{
+	width: 1024px;
+	height: 70px;
+	padding-top: 170px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav{
+	float: left;
+	width: 1024px;
+}
+
+li{
+	width: 256px;
+	height: 70px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	color: #000000;
+	line-height: 70px;
+
+}
+
+
+/* =====================
+  profile
+===================== */
+
+
+.profile-container{
+	text-align: center;
+	color: #000000;
+}
+
+.heading-top{
+	margin-top: 100px;
+}
+
+.yajirushi{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-size: 60% 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../img/yajirushi.png);
+
+}
+
+.name1{
+	font-size: 170%;
+}
+
+.name2{
+	font-size: medium;
+	margin-top: 3px;
+}
+
+p{
+	font-size: medium;
+	margin-top: 25px;
+
+}
+
+.heading-last{
+	margin-top: 70px;
+
+}
+
+
+/* =====================
+  works
+===================== */
+
+.works-container{
+	text-align: center;
+	color: #000000;
+}
+
+.worksphoto{
+	width: 820px;
+	margin: 0 auto;
+
+}
+
+
+.img-box{
+	width: 400px;
+	height: 285px;
+	margin: 5px;
+	float: left;
+	background-size: 100% 100%;
+	background-position: center;
+
+}
+
+
+
+.img1{background-image: url(../img/peugeot01.png);
+}
+
+.img2{background-image: url(../img/peugeot02.png);
+}
+
+.img3{background-image: url(../img/peugeot03.png);
+}
+
+.img4{background-image: url(../img/peugeot04.png);
+}
+
+.img5{background-image: url(../img/volvo01.png);
+}
+
+.img6{background-image: url(../img/volvo02.png);
+}
+
+.img7{background-image: url(../img/Ora2_02.png);
+}
+
+.img8{background-image: url(../img/Ora2_01.png);
+}
+
+
+/* =====================
+  photo
+===================== */
+
+.photo-container{
+	text-align: center;
+	color: #000000;
+}
+
+.photo{
+	width: 930px;
+	margin: 0 auto;
+
+}
+
+.img-box2{
+	width: 300px;
+	height: 380px;
+	margin: 5px;
+	float: left;
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+.img001{
+	background-image: url(../img/photo01.png);
+}
+
+.img002{
+	background-image: url(../img/photo02.png);
+}
+
+.img003{
+	background-image: url(../img/photo03.png);
+}
+
+
+/* =====================
+  contact
+===================== */
+
+.contact-container{
+	text-align: center;
+	color: #000000;
+}
+
+nav{
+	float: left;
+}
+
+li{
+	height: 100px;
+	float: left;
+	list-style: none;
+	color: #000000;
+	line-height: 100px;
+}
+
+
+
+
